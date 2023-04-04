@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+.txt{
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+#con{
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 5px 5px 20px 5px;
+  border-radius: 20px;
+  width: 480px;
+  height: 360px;
+}
+.sub-con{
+  width: 240px;
+}
+#s-con-1{
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 20px;
+}
+#ptxt{
+  color: rgba(255, 255, 255, 0.8);
+  margin: 25px 0 25px 0;
+}
+#circ{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  border-radius: 100%;
+  width: 140px;
+  height: 140px;
+  background: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  align-items: center;
+  justify-content: center;
+}
+#h1txt{
+  font-size: 50px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  color: white;
+  font-weight: 800;
+}
+#h3txt{
+  margin: 15px;
+  color: white;
+  font-weight: 500;
+}
+#ptxt1{
+  color: rgba(255, 255, 255, 0.503);
+  font-size: 12px;
+}
+#shrt-desc{
+  width: 68%;
+  font-size: 12px;
+  color:  rgba(255, 255, 255, 0.603);
+}
+
+.score{
+  display: flex;
+  flex-direction: row;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+}
+.container{
+  margin: 20px;
+}
+#h3txt1{
+  margin: 0px 5px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.left-txt{
+  font-weight: 500;
+  display: flex;
+}
+.svg{
+  margin-right: 6px;
+}
+#h-ptxt1{ 
+  color: hsl(0, 100%, 67%);
+}
+#score1{
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+#h-ptxt-2{ 
+  color: hsl(39, 100%, 56%);
+}
+#score2{
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+#h-ptxt-3{ 
+  color: hsl(166, 100%, 37%);
+}
+#score3{
+  background-color: hsla(166, 100%, 37%, 0.1);
+}
+#h-ptxt-4{ 
+  color: hsl(234, 85%, 45%);
+}
+#score4{
+  background-color: hsla(234, 85%, 45%, 0.1);
+}
+#clink{
+  font-size: 13px;
+  padding: 10px;
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 30px;
+  margin-top: 10px;
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+
+}
